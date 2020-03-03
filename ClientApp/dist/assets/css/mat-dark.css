@@ -1,3 +1,5 @@
+/* Dark Edition */
+
 .mat-badge-content {
     font-weight: 600;
     font-size: 12px;
@@ -515,7 +517,10 @@ input.mat-input-element {
 
 .mat-option {
     font-family: Roboto,"Helvetica Neue",sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    color: #fff;
+    background: #1a2035;
+    font-weight: 600;
 }
 
 .mat-optgroup-label {
@@ -689,8 +694,7 @@ textarea.cdk-textarea-autosize-measuring {
 }
 
 .mat-option {
-    color: #fff;
-    background: #1a2035;
+
 }
 
     .mat-option:focus:not(.mat-option-disabled), .mat-option:hover:not(.mat-option-disabled) {
@@ -698,7 +702,7 @@ textarea.cdk-textarea-autosize-measuring {
     }
 
     .mat-option.mat-selected:not(.mat-option-multiple):not(.mat-option-disabled) {
-        background: rgba(255,255,255,.04)
+        background: rgba(0, 204, 255, 0.384)
     }
 
     .mat-option.mat-active {
@@ -1701,7 +1705,7 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
 }
 
 .mat-form-field-appearance-legacy .mat-form-field-underline {
-    background-color: rgba(255,255,255,.7)
+  background-color: rgba(113, 113, 113, 0.7);
 }
 
 .mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline {
@@ -3680,7 +3684,7 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
   }
   
   .dark-edition .form-control {
-    color: #fff;
+    color: #424242;
   }
   
   .dark-edition .form-control::-moz-placeholder {
@@ -3709,10 +3713,10 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
     color: #999999;
   }
   
-  .dark-edition .form-control,
+  /* .dark-edition .form-control,
   .is-focused .dark-edition .form-control {
     background-image: linear-gradient(to top, #9c27b0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, rgba(180, 180, 180, 0.1) 1px, rgba(180, 180, 180, 0) 1px);
-  }
+  } */
   
   .dark-edition .form-control:invalid {
     background-image: linear-gradient(to top, #f44336 2px, rgba(244, 67, 54, 0) 2px), linear-gradient(to top, rgba(180, 180, 180, 0.1) 1px, rgba(180, 180, 180, 0) 1px);
@@ -4995,12 +4999,7 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
   }
   
 
-.dark-edition .table>tbody>tr>td {
-    border-bottom-width: 1px;
-      font-size: 14px;
-    font-weight: 500;
-    color:#d3d3d3;
-}
+
 
 .dark-edition .card .card-header.card-header-text .card-title, .dark-edition .card .card-header.card-header-icon .card-title {
     color:#d3d3d3;
@@ -5013,7 +5012,7 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
     display: block;
     height: auto;
     white-space: nowrap;
-    font-weight: 500;
+    font-weight: 600;
     color:#e6e6e6;
 }
 
@@ -5027,7 +5026,7 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
 .dark-edition .table>tbody>tr>td {
     border-bottom-width: 1px;
       font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     color:#e6e6e6;
 }
 
@@ -5043,3 +5042,12 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
         margin-bottom: -20px;
     }
 } 
+
+.sidebar .nav i {
+
+  color: #fff;
+}
+
+
+
+/* Dark Edition */

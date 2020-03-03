@@ -285,12 +285,7 @@ a {
 }
 
 
-.dark-edition .table>tbody>tr>td {
-    border-bottom-width: 1px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #424242;
-}
+
 /* .table>tbody>tr>td {
     border-bottom-width: 1px;
     font-size: 14px;
@@ -318,10 +313,7 @@ a {
 }
 
 
-.sidebar .nav i {
 
-    color: #000000;
-}
 
 
 /* td{

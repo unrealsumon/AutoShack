@@ -1,3 +1,5 @@
+/* Light Edition */
+
 .mat-badge-content {
     font-weight: 600;
     font-size: 12px;
@@ -515,7 +517,8 @@ input.mat-input-element {
 
 .mat-option {
     font-family: Roboto,"Helvetica Neue",sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    font-weight:600;
 }
 
 .mat-optgroup-label {
@@ -2469,11 +2472,17 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
 }
 
 /* ________________________________________________________Table Head Format_________________________________________________________*/
-.table>tbody>tr>td {
+/* .table>tbody>tr>td {
     border-bottom-width: 1px;
       font-size: 14px;
     font-weight: 500;
     color:#424242;
+} */
+.dark-edition .table>tbody>tr>td {
+    border-bottom-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242;
 }
 
  .searchfilter{
@@ -2489,3 +2498,10 @@ mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat
         margin-bottom: -20px;
     }
 } 
+
+.sidebar .nav i {
+
+    color: #000000;
+}
+
+/* Light Edition */

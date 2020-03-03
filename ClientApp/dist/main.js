@@ -1,68 +1,80 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/Controllers/login/login.component.html":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/Controllers/login/login.component.html ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/Controllers/login/login.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/Controllers/login/login.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"wrapper wrapper-full-page\" style=\"background-image: url('/assets/img/login.jpg'); background-size: cover; background-position: top center;\">\r\n  \r\n    <div class=\"page-header login-page header-filter\" >\r\n      <!--   you can change the color of the filter page using: data-color=\"blue | purple | green | orange | red | rose \" -->\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-4 col-md-6 col-sm-8 \">\r\n            <br>\r\n\r\n            <br>\r\n\r\n\r\n            <br>\r\n            <br>\r\n            \r\n            <form #form=\"ngForm\" class=\"form\"  autocomplete=\"new-password\" >\r\n              <div class=\"card-plain card-login card-hidden\">\r\n                <div class=\"card-header-hidden  card-header-info text-center \" style=\"background:transparent;display:table-cell; vertical-align:middle; text-align:center; margin: 0px; border-radius: 15px;\" >\r\n                    <img src=\"./assets/img/login-logo.png\"/>\r\n                  <h4 class=\"card-title\" style=\"\">\r\n                   \r\n            \r\n                 \r\n                   \r\n                  </h4>\r\n                  <!-- <div class=\"social-line\">\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-facebook-square\"></i>\r\n                    </a>\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-twitter\"></i>\r\n                    </a>\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-google-plus\"></i>\r\n                    </a>\r\n                  </div> -->\r\n                </div>\r\n                <div class=\"card-body \">\r\n         \r\n           \r\n            \r\n                  <span class=\"bmd-form-group\">\r\n                    <div class=\"input-group\">\r\n                      <div class=\"input-group-prepend\">\r\n                        <span class=\"input-group-text\">\r\n                          <i class=\"material-icons\">person</i>\r\n                        </span>\r\n                      </div>\r\n                      <input type=\"text\" class=\"form-control\" autocomplete=\"new-password\" [(ngModel)]=\"UserName\" name=\"UserName\" placeholder=\"User Name\" >\r\n                    </div>\r\n                  </span>\r\n                  <br>\r\n                  <span class=\"bmd-form-group\">\r\n                    <div class=\"input-group\">\r\n                      <div class=\"input-group-prepend\">\r\n                        <span class=\"input-group-text\">\r\n                          <i class=\"material-icons\">vpn_key</i>\r\n                        </span>\r\n                      </div>\r\n                      <input type=\"password\" class=\"form-control\" autocomplete=\"new-password\" [(ngModel)]=\"Password\" name=\"Password\" placeholder=\"Password\">\r\n                    </div>\r\n                  </span>\r\n                  <br>\r\n                  <span class=\"bmd-form-group\">\r\n                    \r\n                      \r\n                        <button mat-button class=\"  btn btn-danger float-right \"\r\n                        (click)=\"Login()\"><span> <i\r\n                                class=\"material-icons\">lock</i> &nbsp; Login</span> </button>\r\n                     \r\n                    </span>\r\n                </div>\r\n             \r\n              </div>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
-/*!**************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n<router-outlet></router-outlet>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper wrapper-full-page\" style=\"background-image: url('/assets/img/login.jpg'); background-size: cover; background-position: top center;\">\r\n  \r\n    <div class=\"page-header login-page header-filter\" >\r\n      <!--   you can change the color of the filter page using: data-color=\"blue | purple | green | orange | red | rose \" -->\r\n      <div class=\"container\">\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-4 col-md-6 col-sm-8 \">\r\n            <br>\r\n\r\n            <br>\r\n\r\n\r\n            <br>\r\n            <br>\r\n            \r\n            <form #form=\"ngForm\" class=\"form\"  autocomplete=\"new-password\" >\r\n              <div class=\"card-plain card-login card-hidden\">\r\n                <div class=\"card-header-hidden  card-header-info text-center \" style=\"background:transparent;display:table-cell; vertical-align:middle; text-align:center; margin: 0px; border-radius: 15px;\" >\r\n                    <img src=\"./assets/img/login-logo.png\"/>\r\n                  <h4 class=\"card-title\" style=\"\">\r\n                   \r\n            \r\n                 \r\n                   \r\n                  </h4>\r\n                  <!-- <div class=\"social-line\">\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-facebook-square\"></i>\r\n                    </a>\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-twitter\"></i>\r\n                    </a>\r\n                    <a href=\"#pablo\" class=\"btn btn-just-icon btn-link btn-white\">\r\n                      <i class=\"fa fa-google-plus\"></i>\r\n                    </a>\r\n                  </div> -->\r\n                </div>\r\n                <div class=\"card-body \">\r\n         \r\n           \r\n            \r\n                  <span class=\"bmd-form-group\">\r\n                    <div class=\"input-group\">\r\n                      <div class=\"input-group-prepend\">\r\n                        <span class=\"input-group-text\">\r\n                          <i class=\"material-icons\">person</i>\r\n                        </span>\r\n                      </div>\r\n                      <input type=\"text\" class=\"form-control\" autocomplete=\"new-password\" [(ngModel)]=\"UserName\" name=\"UserName\" placeholder=\"User Name\" >\r\n                    </div>\r\n                  </span>\r\n                  <br>\r\n                  <span class=\"bmd-form-group\">\r\n                    <div class=\"input-group\">\r\n                      <div class=\"input-group-prepend\">\r\n                        <span class=\"input-group-text\">\r\n                          <i class=\"material-icons\">vpn_key</i>\r\n                        </span>\r\n                      </div>\r\n                      <input type=\"password\" class=\"form-control\" autocomplete=\"new-password\" [(ngModel)]=\"Password\" name=\"Password\" placeholder=\"Password\">\r\n                    </div>\r\n                  </span>\r\n                  <br>\r\n                  <span class=\"bmd-form-group\">\r\n                    \r\n                      \r\n                        <button mat-button class=\"  btn btn-danger float-right \"\r\n                        (click)=\"Login()\"><span> <i\r\n                                class=\"material-icons\">lock</i> &nbsp; Login</span> </button>\r\n                     \r\n                    </span>\r\n                </div>\r\n             \r\n              </div>\r\n            </form>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/components/footer/footer.component.html":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/components/footer/footer.component.html ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
+/*!**************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<footer class=\"footer \">\r\n    <nav >\r\n        <ul >\r\n\r\n                <li>\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('dashboard')\" >\r\n                        <!-- <i class=\"material-icons\">dashboard</i> -->\r\n                        Dashboard\r\n                        </a>\r\n                    </li>\r\n\r\n\r\n                         \r\n            <li>\r\n                <a href=\"javascript:void(0)\" (click)=\"Navigate('repair')\" >\r\n                    <!-- <i class=\"material-icons\">build</i>       -->\r\n                    Repair\r\n                        </a>\r\n            </li>\r\n            <li>\r\n                <a href=\"javascript:void(0)\" (click)=\"Navigate('customer')\" >\r\n                    <!-- <i class=\"material-icons\">group</i> -->\r\n                    Customer\r\n                </a>\r\n            </li>\r\n\r\n            <li class=\"\">\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('user')\" >\r\n                        <!-- <i class=\"material-icons\">person</i> -->\r\n                        User\r\n              \r\n                        </a>\r\n            </li>\r\n            <li class=\"\">\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('setting')\" >\r\n                        <!-- <i class=\"material-icons\">person</i> -->\r\n                        Setting\r\n              \r\n                        </a>\r\n            </li>\r\n        </ul>\r\n    </nav>\r\n\r\n\r\n  \r\n</footer>\r\n"
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/index.js!./src/app/components/navbar/navbar.component.html":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/components/navbar/navbar.component.html ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <!-- <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a> -->\n          <h4 style=\"font-weight: 600;\" >Auto </h4>      <h4 class=\"text-danger\" style=\"font-weight: 600;\" >Shack </h4>  &nbsp;  &nbsp;    <h4  style=\"font-weight: 500;\" >Workshop Suite</h4>\n        </div>\n        <button mat-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse justify-content-end\" id=\"navigation\">\n            <!-- <form class=\"navbar-form\">\n                <div class=\"input-group no-border\">\n                    <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n                    <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n                        <i class=\"material-icons\">search</i>\n                        <div class=\"ripple-container\"></div>\n                    </button>\n                </div>\n            </form> -->\n            <ul class=\"navbar-nav\">\n                <!-- <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\">\n                        <i class=\"material-icons\">dashboard</i>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Stats</span>\n                        </p>\n                    </a>\n                </li> -->\n                <!-- <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        <i class=\"material-icons\">notifications</i>\n                        <span class=\"notification\">5</span>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Some Actions</span>\n                        </p>\n                    </a>\n                    <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Mike John responded to your email</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">You have 5 new tasks</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">You're now friend with Andrew</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Another Notification</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Another One</a>\n                    </div>\n                </li> -->\n             \n\n\n                <li class=\"dropdown\">\n                               \n                    <button  mat-button class=\"dropdown-toggle\"  data-toggle=\"dropdown\" href=\"\">\n                        <i class=\"material-icons\">person</i>  &nbsp;      {{username}}\n                  \n                    </button>\n                    <ul class=\"dropdown-menu dropdown-menu-right\">\n                        <li><a href=\"javascript:void(0)\" (click)=\"Logout()\">Logout</a></li>\n                      \n                    </ul>\n               \n            </li>\n                <!-- <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\">\n                        <i class=\"material-icons\">person</i>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Account</span>\n                        </p>\n                    </a>\n                </li> -->\n\n                <!-- <li class=\"nav-item\">\n                    <button mat-button class=\"  btn btn-success float-right\"\n                   ><span> <i\n                            class=\"material-icons\">edit</i> &nbsp; Save Changes</span> </button>\n                </li> -->\n            </ul>\n        </div>\n    </div>\n</nav>\n\n<!--\n\n<nav class=\"navbar navbar-transparent navbar-absolute\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n            <button mat-raised-button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" (click)=\"sidebarToggle()\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\n        </div>\n        <div class=\"collapse navbar-collapse\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                        <i class=\"material-icons\">dashboard</i>\n                        <p class=\"hidden-lg hidden-md\">Dashboard</p>\n                    </a>\n                </li>\n                <li class=\"dropdown\">\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                        <i class=\"material-icons\">notifications</i>\n                        <span class=\"notification\">5</span>\n                        <p class=\"hidden-lg hidden-md\">Notifications</p>\n                    </a>\n                    <ul class=\"dropdown-menu\">\n                        <li><a href=\"javascript:void(0)\">Mike John responded to your email</a></li>\n                        <li><a href=\"javascript:void(0)\">You have 5 new tasks</a></li>\n                        <li><a href=\"javascript:void(0)\">You're now friend with Andrew</a></li>\n                        <li><a href=\"javascript:void(0)\">Another Notification</a></li>\n                        <li><a href=\"javascript:void(0)\">Another One</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                       <i class=\"material-icons\">person</i>\n                       <p class=\"hidden-lg hidden-md\">Profile</p>\n                    </a>\n                </li>\n            </ul>\n\n            <form class=\"navbar-form navbar-right\" role=\"search\">\n                <div class=\"form-group form-black is-empty\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n                    <span class=\"material-input\"></span>\n                </div>\n                <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n                    <i class=\"material-icons\">search</i><div class=\"ripple-container\"></div>\n                </button>\n            </form>\n        </div>\n    </div>\n</nav> -->\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n<router-outlet></router-outlet>\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/components/sidebar/sidebar.component.html":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/components/sidebar/sidebar.component.html ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"logo\">\n    <a href=\"http://www.fire-fly.studio\" class=\"simple-text\">\n        <div  style=\"height: 70%;\">\n            <img src=\"./assets/img/autoshack-png.png\"/>\n        </div>\n      \n    </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <div *ngIf=\"isMobileMenu()\">\n    <!-- <form class=\"navbar-form\">\n      <span class=\"bmd-form-group\">\n        <div class=\"input-group no-border\">\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n          <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i>\n            <div class=\"ripple-container\"></div>\n          </button>\n        </div>\n      </span>\n    </form> -->\n    <ul class=\"nav navbar-nav nav-mobile-menu\">\n        <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#pablo\">\n                <i class=\"material-icons\">dashboard</i>\n                <p>\n                    <span class=\"d-lg-none d-md-block\">Stats</span>\n                </p>\n            </a>\n        </li>\n\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#pablo\">\n                <i class=\"material-icons\">person</i>\n                <p>\n                    <span class=\"d-lg-none d-md-block\">Account</span>\n                </p>\n            </a>\n        </li> -->\n\n        <!-- <li class=\"nav-item dropdown\">\n            <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                <i class=\"material-icons\">person</i>\n        \n                <p>\n                    <span class=\"d-lg-none d-md-block\">   {{username}}</span>\n                </p>\n            </a>\n            <ul class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                <li>\n              \n                <a class=\"dropdown-item\" href=\"#\">Logout</a>\n            </li>\n            </ul>\n        </li> -->\n\n\n         <li class=\"dropdown\">\n                               \n            <a class=\"nav-link  \"  data-toggle=\"dropdown\">\n                <i class=\"material-icons\">person</i>  \n                <p class=\"dropdown-toggle\">\n                 {{username}}\n            </p> \n            </a>\n            <ul class=\"dropdown-menu dropdown-menu-right\">\n                    <li><a href=\"javascript:void(0)\" (click)=\"Logout()\">Logout</a></li>\n              \n            </ul>\n       \n    </li> \n    </ul>\n  </div>\n    <ul class=\"nav\">\n        <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}} nav-item\">\n            <a class=\"nav-link\" [routerLink]=\"[menuItem.path]\">\n                <i class=\"material-icons\">{{menuItem.icon}}</i>\n                <p>{{menuItem.title}}</p>\n                <div class=\"ripple-container\"></div>\n            </a>\n        </li>\n    </ul>\n</div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"footer \">\r\n    <nav >\r\n        <ul >\r\n\r\n                <li>\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('dashboard')\" >\r\n                        <!-- <i class=\"material-icons\">dashboard</i> -->\r\n                        Dashboard\r\n                        </a>\r\n                    </li>\r\n\r\n\r\n                         \r\n            <li>\r\n                <a href=\"javascript:void(0)\" (click)=\"Navigate('repair')\" >\r\n                    <!-- <i class=\"material-icons\">build</i>       -->\r\n                    Repair\r\n                        </a>\r\n            </li>\r\n            <li>\r\n                <a href=\"javascript:void(0)\" (click)=\"Navigate('customer')\" >\r\n                    <!-- <i class=\"material-icons\">group</i> -->\r\n                    Customer\r\n                </a>\r\n            </li>\r\n\r\n            <li class=\"\">\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('user')\" >\r\n                        <!-- <i class=\"material-icons\">person</i> -->\r\n                        User\r\n              \r\n                        </a>\r\n            </li>\r\n            <li class=\"\">\r\n                    <a href=\"javascript:void(0)\" (click)=\"Navigate('setting')\" >\r\n                        <!-- <i class=\"material-icons\">person</i> -->\r\n                        Setting\r\n              \r\n                        </a>\r\n            </li>\r\n        </ul>\r\n    </nav>\r\n\r\n\r\n  \r\n</footer>\r\n");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/index.js!./src/app/layouts/admin-layout/admin-layout.component.html":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader!./src/app/layouts/admin-layout/admin-layout.component.html ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbar/navbar.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbar/navbar.component.html ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color=\"azure\" data-background-color=\"none\" data-image=\"./assets/img/sidebar.jpg\">\n        <app-sidebar></app-sidebar>\n        <div class=\"sidebar-background\" style=\"background-image: url(./assets/img/sidebar.jpg)\"></div>\n    </div>\n    <div class=\"main-panel\" >\n        <app-navbar></app-navbar>\n        <div class=\"main-content\" >\n            <div class=\"container-fluid\">\n            \n                    <router-outlet></router-outlet>\n                </div>\n                </div>\n       \n        <div *ngIf=\"isMaps('maps')\">\n            <app-footer></app-footer>\n        </div>\n    </div>\n</div>\n"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <!-- <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a> -->\n          <h4 style=\"font-weight: 600;\" >Auto </h4>      <h4 class=\"text-danger\" style=\"font-weight: 600;\" >Shack </h4>  &nbsp;  &nbsp;    <h4  style=\"font-weight: 500;\" >Workshop Suite</h4>\n        </div>\n        <button mat-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n            <span class=\"navbar-toggler-icon icon-bar\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse justify-content-end\" id=\"navigation\">\n            <!-- <form class=\"navbar-form\">\n                <div class=\"input-group no-border\">\n                    <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n                    <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n                        <i class=\"material-icons\">search</i>\n                        <div class=\"ripple-container\"></div>\n                    </button>\n                </div>\n            </form> -->\n            <ul class=\"navbar-nav\">\n                <!-- <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\">\n                        <i class=\"material-icons\">dashboard</i>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Stats</span>\n                        </p>\n                    </a>\n                </li> -->\n                <!-- <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        <i class=\"material-icons\">notifications</i>\n                        <span class=\"notification\">5</span>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Some Actions</span>\n                        </p>\n                    </a>\n                    <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Mike John responded to your email</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">You have 5 new tasks</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">You're now friend with Andrew</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Another Notification</a>\n                        <a class=\"dropdown-item\" href=\"javascript:void(0)\">Another One</a>\n                    </div>\n                </li> -->\n             \n\n\n                <li class=\"dropdown\">\n                               \n                    <button  mat-button class=\"dropdown-toggle\"  data-toggle=\"dropdown\" href=\"\">\n                        <i class=\"material-icons\">person</i>  &nbsp;      {{username}}\n                  \n                    </button>\n                    <ul class=\"dropdown-menu dropdown-menu-right\">\n                        <li><a href=\"javascript:void(0)\" (click)=\"Logout()\">Logout</a></li>\n                      \n                    </ul>\n               \n            </li>\n                <!-- <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"javascript:void(0)\">\n                        <i class=\"material-icons\">person</i>\n                        <p>\n                            <span class=\"d-lg-none d-md-block\">Account</span>\n                        </p>\n                    </a>\n                </li> -->\n\n                <!-- <li class=\"nav-item\">\n                    <button mat-button class=\"  btn btn-success float-right\"\n                   ><span> <i\n                            class=\"material-icons\">edit</i> &nbsp; Save Changes</span> </button>\n                </li> -->\n            </ul>\n        </div>\n    </div>\n</nav>\n\n<!--\n\n<nav class=\"navbar navbar-transparent navbar-absolute\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-header\">\n            <button mat-raised-button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" (click)=\"sidebarToggle()\">\n                <span class=\"sr-only\">Toggle navigation</span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n            </button>\n            <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\n        </div>\n        <div class=\"collapse navbar-collapse\">\n            <ul class=\"nav navbar-nav navbar-right\">\n                <li>\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                        <i class=\"material-icons\">dashboard</i>\n                        <p class=\"hidden-lg hidden-md\">Dashboard</p>\n                    </a>\n                </li>\n                <li class=\"dropdown\">\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                        <i class=\"material-icons\">notifications</i>\n                        <span class=\"notification\">5</span>\n                        <p class=\"hidden-lg hidden-md\">Notifications</p>\n                    </a>\n                    <ul class=\"dropdown-menu\">\n                        <li><a href=\"javascript:void(0)\">Mike John responded to your email</a></li>\n                        <li><a href=\"javascript:void(0)\">You have 5 new tasks</a></li>\n                        <li><a href=\"javascript:void(0)\">You're now friend with Andrew</a></li>\n                        <li><a href=\"javascript:void(0)\">Another Notification</a></li>\n                        <li><a href=\"javascript:void(0)\">Another One</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <a href=\"javascript:void(0)\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                       <i class=\"material-icons\">person</i>\n                       <p class=\"hidden-lg hidden-md\">Profile</p>\n                    </a>\n                </li>\n            </ul>\n\n            <form class=\"navbar-form navbar-right\" role=\"search\">\n                <div class=\"form-group form-black is-empty\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n                    <span class=\"material-input\"></span>\n                </div>\n                <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n                    <i class=\"material-icons\">search</i><div class=\"ripple-container\"></div>\n                </button>\n            </form>\n        </div>\n    </div>\n</nav> -->\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/sidebar/sidebar.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/sidebar/sidebar.component.html ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"logo\">\n    <a href=\"http://www.fire-fly.studio\" class=\"simple-text\">\n        <div  style=\"height: 70%;\">\n            <img src=\"./assets/img/autoshack-png.png\"/>\n        </div>\n      \n    </a>\n</div>\n<div class=\"sidebar-wrapper\">\n  <div *ngIf=\"isMobileMenu()\">\n    <!-- <form class=\"navbar-form\">\n      <span class=\"bmd-form-group\">\n        <div class=\"input-group no-border\">\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\n          <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i>\n            <div class=\"ripple-container\"></div>\n          </button>\n        </div>\n      </span>\n    </form> -->\n    <ul class=\"nav navbar-nav nav-mobile-menu\">\n        <!-- <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#pablo\">\n                <i class=\"material-icons\">dashboard</i>\n                <p>\n                    <span class=\"d-lg-none d-md-block\">Stats</span>\n                </p>\n            </a>\n        </li>\n\n        <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"#pablo\">\n                <i class=\"material-icons\">person</i>\n                <p>\n                    <span class=\"d-lg-none d-md-block\">Account</span>\n                </p>\n            </a>\n        </li> -->\n\n        <!-- <li class=\"nav-item dropdown\">\n            <a class=\"nav-link\" href=\"#pablo\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\">\n                <i class=\"material-icons\">person</i>\n        \n                <p>\n                    <span class=\"d-lg-none d-md-block\">   {{username}}</span>\n                </p>\n            </a>\n            <ul class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                <li>\n              \n                <a class=\"dropdown-item\" href=\"#\">Logout</a>\n            </li>\n            </ul>\n        </li> -->\n\n\n         <li class=\"dropdown\">\n                               \n            <a class=\"nav-link  \"  data-toggle=\"dropdown\">\n                <i class=\"material-icons\">person</i>  \n                <p class=\"dropdown-toggle\">\n                 {{username}}\n            </p> \n            </a>\n            <ul class=\"dropdown-menu dropdown-menu-right\">\n                    <li><a href=\"javascript:void(0)\" (click)=\"Logout()\">Logout</a></li>\n              \n            </ul>\n       \n    </li> \n    </ul>\n  </div>\n    <ul class=\"nav\">\n        <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}} nav-item\">\n            <a class=\"nav-link\" [routerLink]=\"[menuItem.path]\">\n                <i class=\"material-icons\">{{menuItem.icon}}</i>\n                <p>{{menuItem.title}}</p>\n                <div class=\"ripple-container\"></div>\n            </a>\n        </li>\n    </ul>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/layouts/admin-layout/admin-layout.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/layouts/admin-layout/admin-layout.component.html ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper\">\r\n    <div class=\"sidebar\" data-color=\"azure\" data-background-color=\"none\" data-image=\"./assets/img/sidebar.jpg\">\r\n        <app-sidebar></app-sidebar>\r\n        <div class=\"sidebar-background\" style=\"background-image: url(./assets/img/sidebar.jpg)\"></div>\r\n    </div>\r\n    <div class=\"main-panel\" >\r\n        <app-navbar></app-navbar>\r\n        <div class=\"main-content\" >\r\n            <div class=\"container-fluid\">\r\n            \r\n                    <router-outlet></router-outlet>\r\n                </div>\r\n                </div>\r\n       \r\n        <div *ngIf=\"isMaps('maps')\">\r\n            <app-footer></app-footer>\r\n        </div>\r\n    </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -125,6 +137,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 
@@ -162,10 +177,15 @@ var LoginComponent = /** @class */ (function () {
             _this.echo.Error(e.error.Value);
         });
     };
+    LoginComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] },
+        { type: app_Services_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"] },
+        { type: app_Services_notification_service__WEBPACK_IMPORTED_MODULE_4__["NotificationService"] }
+    ]; };
     LoginComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-login',
-            template: __webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/index.js!./src/app/Controllers/login/login.component.html")
+            template: __importDefault(__webpack_require__(/*! raw-loader!./login.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/Controllers/login/login.component.html")).default
         }),
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"], app_Services_user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"], app_Services_notification_service__WEBPACK_IMPORTED_MODULE_4__["NotificationService"]])
     ], LoginComponent);
@@ -186,6 +206,9 @@ var LoginComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthModel", function() { return AuthModel; });
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 var AuthModel = /** @class */ (function () {
     function AuthModel() {
     }
@@ -255,6 +278,9 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 var CustomerService = /** @class */ (function () {
@@ -303,6 +329,10 @@ var CustomerService = /** @class */ (function () {
     CustomerService.prototype.DeleteCustomer = function (id) {
         return this.http.get(this.HostUrl + 'api/customer/DeleteCustomer/' + id);
     };
+    CustomerService.ctorParameters = function () { return [
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] },
+        { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: ['BASE_URL',] }] }
+    ]; };
     CustomerService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
@@ -336,6 +366,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 var NotificationService = /** @class */ (function () {
@@ -478,6 +511,9 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 var UserService = /** @class */ (function () {
@@ -497,6 +533,10 @@ var UserService = /** @class */ (function () {
     UserService.prototype.IsUserNameUnique = function (name) {
         return this.http.get(this.HostUrl + 'api/user/IsUserNameUnique/' + name);
     };
+    UserService.ctorParameters = function () { return [
+        { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] },
+        { type: String, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: ['BASE_URL',] }] }
+    ]; };
     UserService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
             providedIn: 'root'
@@ -515,10 +555,12 @@ var UserService = /** @class */ (function () {
 /*!***********************************!*\
   !*** ./src/app/app.component.css ***!
   \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -539,6 +581,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
@@ -547,8 +592,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/index.js!./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
         })
     ], AppComponent);
     return AppComponent;
@@ -588,6 +633,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 
@@ -656,6 +704,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 
@@ -727,6 +778,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 
@@ -768,10 +822,12 @@ var ComponentsModule = /** @class */ (function () {
 /*!********************************************************!*\
   !*** ./src/app/components/footer/footer.component.css ***!
   \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIn0= */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -796,6 +852,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 
 
 var FooterComponent = /** @class */ (function () {
@@ -808,11 +867,14 @@ var FooterComponent = /** @class */ (function () {
     FooterComponent.prototype.Navigate = function (component) {
         this._router.navigate([component]);
     };
+    FooterComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }
+    ]; };
     FooterComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-footer',
-            template: __webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/footer/footer.component.html"),
-            styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/components/footer/footer.component.css")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./footer.component.css */ "./src/app/components/footer/footer.component.css")).default]
         }),
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], FooterComponent);
@@ -827,10 +889,12 @@ var FooterComponent = /** @class */ (function () {
 /*!********************************************************!*\
   !*** ./src/app/components/navbar/navbar.component.css ***!
   \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIn0= */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
@@ -856,6 +920,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 
@@ -970,11 +1037,16 @@ var NavbarComponent = /** @class */ (function () {
         sessionStorage.clear();
         this.router.navigate(['login']);
     };
+    NavbarComponent.ctorParameters = function () { return [
+        { type: _angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] }
+    ]; };
     NavbarComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-navbar',
-            template: __webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/navbar/navbar.component.html"),
-            styles: [__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/navbar/navbar.component.css")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./navbar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbar/navbar.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/navbar/navbar.component.css")).default]
         }),
         __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_2__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]])
     ], NavbarComponent);
@@ -989,10 +1061,12 @@ var NavbarComponent = /** @class */ (function () {
 /*!**********************************************************!*\
   !*** ./src/app/components/sidebar/sidebar.component.css ***!
   \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2lkZWJhci9zaWRlYmFyLmNvbXBvbmVudC5jc3MifQ== */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2lkZWJhci9zaWRlYmFyLmNvbXBvbmVudC5jc3MifQ== */");
 
 /***/ }),
 
@@ -1017,6 +1091,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 
@@ -1048,11 +1125,14 @@ var SidebarComponent = /** @class */ (function () {
         sessionStorage.clear();
         this.router.navigate(['login']);
     };
+    SidebarComponent.ctorParameters = function () { return [
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"] }
+    ]; };
     SidebarComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-sidebar',
-            template: __webpack_require__(/*! raw-loader!./sidebar.component.html */ "./node_modules/raw-loader/index.js!./src/app/components/sidebar/sidebar.component.html"),
-            styles: [__webpack_require__(/*! ./sidebar.component.css */ "./src/app/components/sidebar/sidebar.component.css")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./sidebar.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/sidebar/sidebar.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./sidebar.component.css */ "./src/app/components/sidebar/sidebar.component.css")).default]
         }),
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], SidebarComponent);
@@ -1067,10 +1147,12 @@ var SidebarComponent = /** @class */ (function () {
 /*!******************************************************************!*\
   !*** ./src/app/layouts/admin-layout/admin-layout.component.scss ***!
   \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xheW91dHMvYWRtaW4tbGF5b3V0L2FkbWluLWxheW91dC5jb21wb25lbnQuc2NzcyJ9 */"
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xheW91dHMvYWRtaW4tbGF5b3V0L2FkbWluLWxheW91dC5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -1099,6 +1181,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
 
@@ -1230,11 +1315,15 @@ var AdminLayoutComponent = /** @class */ (function () {
         }
         return bool;
     };
+    AdminLayoutComponent.ctorParameters = function () { return [
+        { type: _angular_common__WEBPACK_IMPORTED_MODULE_1__["Location"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] }
+    ]; };
     AdminLayoutComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-admin-layout',
-            template: __webpack_require__(/*! raw-loader!./admin-layout.component.html */ "./node_modules/raw-loader/index.js!./src/app/layouts/admin-layout/admin-layout.component.html"),
-            styles: [__webpack_require__(/*! ./admin-layout.component.scss */ "./src/app/layouts/admin-layout/admin-layout.component.scss")]
+            template: __importDefault(__webpack_require__(/*! raw-loader!./admin-layout.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/layouts/admin-layout/admin-layout.component.html")).default,
+            styles: [__importDefault(__webpack_require__(/*! ./admin-layout.component.scss */ "./src/app/layouts/admin-layout/admin-layout.component.scss")).default]
         }),
         __metadata("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_1__["Location"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]])
     ], AdminLayoutComponent);
@@ -1259,6 +1348,9 @@ __webpack_require__.r(__webpack_exports__);
 // The build system defaults to the dev environment which uses `environment.ts`, but if you do
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 var environment = {
     production: true
 };
@@ -1282,6 +1374,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hammerjs */ "./node_modules/hammerjs/hammer.js");
 /* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_4__);
+var __importDefault = (undefined && undefined.__importDefault) || function (mod) {
+  return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 /*!
 
 =========================================================
