@@ -16417,7 +16417,9 @@ var DashboardService = /** @class */ (function () {
     DashboardService.prototype.GetRepairByStatus = function (_statusModel) {
         var statusModel = {};
         statusModel.Status = _statusModel.Status;
-        statusModel.Date = this.AdjustDate(_statusModel.Date);
+        var date = this.AdjustDate(_statusModel.Date);
+        statusModel.Date = date;
+        statusModel.DateString = date.toDateString();
         return this.http.post(this.HostUrl + 'api/dashboard/GetRepairListByStatus', statusModel);
     };
     DashboardService.prototype.GetAppointmentsByDate = function (_date) {
@@ -16467,7 +16469,7 @@ var DashboardService = /** @class */ (function () {
     };
     DashboardService.prototype.AdjustDate = function (dateToAdjust) {
         var newDate = new Date(dateToAdjust);
-        newDate.setMinutes(newDate.getMinutes() - newDate.getTimezoneOffset());
+        //newDate.setMinutes(newDate.getMinutes() - newDate.getTimezoneOffset());
         return newDate;
     };
     DashboardService.prototype.UpdateStatus = function (sModel) {
@@ -16616,10 +16618,10 @@ var RepairService = /** @class */ (function () {
     };
     RepairService.prototype.AddUpdateRepair = function (rModel) {
         var date = this.AdjustDate(rModel.get('Date'));
-        rModel.set('Date', date.toUTCString());
+        rModel.set('Date', date.toDateString());
         if (rModel.get('NextAppointment') !== null) {
             var NextAppointment = this.AdjustDate(rModel.get('NextAppointment'));
-            rModel.set('NextAppointment', NextAppointment.toUTCString());
+            rModel.set('NextAppointment', NextAppointment.toDateString());
         }
         else {
             rModel.set('NextAppointment', null);
