@@ -323,3 +323,10 @@ a {
 
     text-overflow: ellipsis; 
   } */
+
+
+  .highlightedDates {
+    background: #e91e63;
+    border-radius: 100%;
+    font-weight: 700;
+}
